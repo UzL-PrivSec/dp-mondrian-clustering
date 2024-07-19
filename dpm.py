@@ -116,7 +116,7 @@ class DPM:
                 bounds=(0, self.bounds[1] - self.bounds[0]),
             )  # * 0.5 because sens is 2 instead of 1
         except:
-            return 0  # Bug in percentile for uci_letters
+            return 0
 
         found_index_quantile = np.argmin(np.abs(codebook[:, 0] - approx_percentile))
         pred_sigma_q = codebook[found_index_quantile][-1] * 0.5
