@@ -21,8 +21,8 @@ dpm = DPM(
 centres, clusters = dpm.perform_clustering()
 # ^        ^
 # |        |
-# |        --------- # list, len(clusters) = k, array indices of data for each cluster
-# ------------------ # np.ndarray, shape = (k, num_dims)
+# |        --------- list, len(clusters) = k, array indices of data for each cluster
+# ------------------ np.ndarray, shape = (k, num_dims)
 ```
 In `demo.py` you can find a full example of how DPM can be used to cluster a data set.
 
