@@ -1,5 +1,5 @@
 # DP-Mondrian Clustering
-The implementation of the differentially private clustering algorithm DPM in the paper 'DPM: Clustering Sensitive Data through Separation'(ACM CCS24). The code for the artifact evaluation can be found [here](https://github.com/UzL-PrivSec/clustering-evaluation). 
+The implementation of the differentially private clustering algorithm DPM in the paper 'DPM: Clustering Sensitive Data through Separation' (ACM CCS24). The code for the artifact evaluation can be found [here](https://github.com/UzL-PrivSec/clustering-evaluation). 
 
 ## Setup
 Install **Python>=3.10** and download the required packages:
