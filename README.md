@@ -27,7 +27,15 @@ centres, clusters = dpm.perform_clustering()
 In `demo.py` you can find a full example of how DPM can be used to cluster a data set.
 
 ## Citation
-If you use the code, please consider citing our Paper "DPM: Clustering Sensitive through Separation". \<conference\>.
+If you use the code, please consider citing our Paper "DPM: Clustering Sensitive through Separation". 
 ```
-Coming soon...
+@misc{liebenow2024dpmclusteringsensitivedata,
+      title={DPM: Clustering Sensitive Data through Separation}, 
+      author={Johannes Liebenow and Yara Schütt and Tanya Braun and Marcel Gehrke and Florian Thaeter and Esfandiar Mohammadi},
+      year={2024},
+      eprint={2307.02969},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2307.02969}, 
+}
 ```
