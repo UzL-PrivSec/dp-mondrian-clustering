@@ -1,4 +1,4 @@
-numpy>=1.24.0
-fast_histogram>=0.12
-diffprivlib>=0.6.3
+numpy
+fast_histogram
+diffprivlib
 scikit-learn
